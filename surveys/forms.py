@@ -15,6 +15,3 @@ class SurveyForm(forms.ModelForm):
         model = Survey
         fields = '__all__'
 
-        widgets = {
-            'question_8': forms.TextInput(attrs={'type': 'range'})
-            }
